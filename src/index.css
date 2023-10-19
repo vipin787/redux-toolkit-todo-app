@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input-box-parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.input-box {
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px;
+  width: 50%
+}
